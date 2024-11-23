@@ -1,0 +1,545 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/hp/ontologies/2024/10/untitled-ontology-15">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="#Актёры_Театров_России"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Театры_Иваново"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Театры_Москвы"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Театры_Омска"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Театры_Перми"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Театры_Питера"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Театры_Салавата"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Театры_Сибири"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Театры_Смоленска"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Театры_Твери"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Театры_Череповца"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Стаж_работы"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Стаж_работы"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Уровень_популярности"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Валерия_Ходос"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Вера_Егорова"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Виктор_Раков"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Виктория_Исакова"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Дамир_Сухов"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Денис_Паршин"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Дмитрий_Певцов"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Лия_Ахеджакова"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Марина_Неелова"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Михаил_Горевой"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Михаил_Ульянов"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Наталья_Круглова"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ольга_Волкова"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Пётр_Рыков"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Сергей_Астахов"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Юлия_Вуккерт"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Театры_Иваново"/>
+        <Class IRI="#Актёры_Театров_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Театры_Москвы"/>
+        <Class IRI="#Актёры_Театров_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Театры_Омска"/>
+        <Class IRI="#Актёры_Театров_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Театры_Перми"/>
+        <Class IRI="#Актёры_Театров_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Театры_Питера"/>
+        <Class IRI="#Актёры_Театров_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Театры_Салавата"/>
+        <Class IRI="#Актёры_Театров_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Театры_Сибири"/>
+        <Class IRI="#Актёры_Театров_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Театры_Смоленска"/>
+        <Class IRI="#Актёры_Театров_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Театры_Твери"/>
+        <Class IRI="#Актёры_Театров_России"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Театры_Череповца"/>
+        <Class IRI="#Актёры_Театров_России"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Театры_Перми"/>
+        <NamedIndividual IRI="#Валерия_Ходос"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Театры_Перми"/>
+        <NamedIndividual IRI="#Вера_Егорова"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Театры_Череповца"/>
+        <NamedIndividual IRI="#Виктор_Раков"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Театры_Омска"/>
+        <NamedIndividual IRI="#Виктория_Исакова"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Театры_Сибири"/>
+        <NamedIndividual IRI="#Дамир_Сухов"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Театры_Омска"/>
+        <NamedIndividual IRI="#Денис_Паршин"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Театры_Сибири"/>
+        <NamedIndividual IRI="#Дмитрий_Певцов"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Театры_Питера"/>
+        <NamedIndividual IRI="#Лия_Ахеджакова"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Театры_Салавата"/>
+        <NamedIndividual IRI="#Марина_Неелова"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Театры_Твери"/>
+        <NamedIndividual IRI="#Михаил_Горевой"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Театры_Москвы"/>
+        <NamedIndividual IRI="#Михаил_Ульянов"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Театры_Иваново"/>
+        <NamedIndividual IRI="#Наталья_Круглова"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Театры_Смоленска"/>
+        <NamedIndividual IRI="#Ольга_Волкова"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Театры_Иваново"/>
+        <NamedIndividual IRI="#Пётр_Рыков"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Театры_Питера"/>
+        <NamedIndividual IRI="#Сергей_Астахов"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Театры_Москвы"/>
+        <NamedIndividual IRI="#Юлия_Вуккерт"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Валерия_Ходос"/>
+        <NamedIndividual IRI="#Валерия_Ходос"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Валерия_Ходос"/>
+        <NamedIndividual IRI="#Валерия_Ходос"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Вера_Егорова"/>
+        <NamedIndividual IRI="#Вера_Егорова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Вера_Егорова"/>
+        <NamedIndividual IRI="#Вера_Егорова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Виктор_Раков"/>
+        <NamedIndividual IRI="#Виктор_Раков"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Виктор_Раков"/>
+        <NamedIndividual IRI="#Виктор_Раков"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Виктория_Исакова"/>
+        <NamedIndividual IRI="#Виктория_Исакова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Виктория_Исакова"/>
+        <NamedIndividual IRI="#Виктория_Исакова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Дамир_Сухов"/>
+        <NamedIndividual IRI="#Дамир_Сухов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Дамир_Сухов"/>
+        <NamedIndividual IRI="#Дамир_Сухов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Денис_Паршин"/>
+        <NamedIndividual IRI="#Денис_Паршин"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Денис_Паршин"/>
+        <NamedIndividual IRI="#Денис_Паршин"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Дмитрий_Певцов"/>
+        <NamedIndividual IRI="#Дмитрий_Певцов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Дмитрий_Певцов"/>
+        <NamedIndividual IRI="#Дмитрий_Певцов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Лия_Ахеджакова"/>
+        <NamedIndividual IRI="#Лия_Ахеджакова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Лия_Ахеджакова"/>
+        <NamedIndividual IRI="#Лия_Ахеджакова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Марина_Неелова"/>
+        <NamedIndividual IRI="#Марина_Неелова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Марина_Неелова"/>
+        <NamedIndividual IRI="#Марина_Неелова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Михаил_Горевой"/>
+        <NamedIndividual IRI="#Михаил_Горевой"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Михаил_Горевой"/>
+        <NamedIndividual IRI="#Михаил_Горевой"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Михаил_Ульянов"/>
+        <NamedIndividual IRI="#Михаил_Ульянов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Михаил_Ульянов"/>
+        <NamedIndividual IRI="#Михаил_Ульянов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Наталья_Круглова"/>
+        <NamedIndividual IRI="#Наталья_Круглова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Наталья_Круглова"/>
+        <NamedIndividual IRI="#Наталья_Круглова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Ольга_Волкова"/>
+        <NamedIndividual IRI="#Ольга_Волкова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Ольга_Волкова"/>
+        <NamedIndividual IRI="#Ольга_Волкова"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Пётр_Рыков"/>
+        <NamedIndividual IRI="#Пётр_Рыков"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Пётр_Рыков"/>
+        <NamedIndividual IRI="#Пётр_Рыков"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Сергей_Астахов"/>
+        <NamedIndividual IRI="#Сергей_Астахов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Сергей_Астахов"/>
+        <NamedIndividual IRI="#Сергей_Астахов"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Юлия_Вуккерт"/>
+        <NamedIndividual IRI="#Юлия_Вуккерт"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Юлия_Вуккерт"/>
+        <NamedIndividual IRI="#Юлия_Вуккерт"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Валерия_Ходос"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Валерия_Ходос"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Знают в Перми</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Вера_Егорова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Вера_Егорова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Известная</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Виктор_Раков"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Виктор_Раков"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Популярный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Виктория_Исакова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Виктория_Исакова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Знает поколение старше 40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Дамир_Сухов"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">17</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Дамир_Сухов"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Известный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Денис_Паршин"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Денис_Паршин"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Неизвестный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Дмитрий_Певцов"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">14</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Дмитрий_Певцов"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Известен для поколения 30+</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Лия_Ахеджакова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">34</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Лия_Ахеджакова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Очень популярная</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Марина_Неелова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Марина_Неелова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Малоизвестная</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Михаил_Горевой"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">32</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Михаил_Горевой"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Малоизвестный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Михаил_Ульянов"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">27</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Михаил_Ульянов"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Известный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Наталья_Круглова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">13</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Наталья_Круглова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Очень популярная</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Ольга_Волкова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">40</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Ольга_Волкова"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Супер популярная</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Пётр_Рыков"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Пётр_Рыков"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Малоизвестный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Сергей_Астахов"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Сергей_Астахов"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Популярный</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Стаж_работы"/>
+        <NamedIndividual IRI="#Юлия_Вуккерт"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Уровень_популярности"/>
+        <NamedIndividual IRI="#Юлия_Вуккерт"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Популярная</Literal>
+    </DataPropertyAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
