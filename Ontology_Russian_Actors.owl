@@ -1,0 +1,420 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY untitled-ontology-6 "http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:untitled-ontology-6="http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Стаж_работы -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-6;Стаж_работы"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Уровень_популярности -->
+
+    <owl:ObjectProperty rdf:about="&untitled-ontology-6;Уровень_популярности"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Стаж_работы -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-6;Стаж_работы"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Уровень_популярности -->
+
+    <owl:DatatypeProperty rdf:about="&untitled-ontology-6;Уровень_популярности"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Актёры_России -->
+
+    <owl:Class rdf:about="&untitled-ontology-6;Актёры_России"/>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Актёры_боевик -->
+
+    <owl:Class rdf:about="&untitled-ontology-6;Актёры_боевик">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-6;Актёры_России"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Актёры_детектив -->
+
+    <owl:Class rdf:about="&untitled-ontology-6;Актёры_детектив">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-6;Актёры_России"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Актёры_драма -->
+
+    <owl:Class rdf:about="&untitled-ontology-6;Актёры_драма">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-6;Актёры_России"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Актёры_исторический -->
+
+    <owl:Class rdf:about="&untitled-ontology-6;Актёры_исторический">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-6;Актёры_России"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Актёры_комедия -->
+
+    <owl:Class rdf:about="&untitled-ontology-6;Актёры_комедия">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-6;Актёры_России"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Актёры_мультфильмы -->
+
+    <owl:Class rdf:about="&untitled-ontology-6;Актёры_мультфильмы">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-6;Актёры_России"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Актёры_мюзикл -->
+
+    <owl:Class rdf:about="&untitled-ontology-6;Актёры_мюзикл">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-6;Актёры_России"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Актёры_токшоу -->
+
+    <owl:Class rdf:about="&untitled-ontology-6;Актёры_токшоу">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-6;Актёры_России"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Актёры_ужасы -->
+
+    <owl:Class rdf:about="&untitled-ontology-6;Актёры_ужасы">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-6;Актёры_России"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Актёры_фантастика -->
+
+    <owl:Class rdf:about="&untitled-ontology-6;Актёры_фантастика">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-6;Актёры_России"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Агата_Муцениеце -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-6;Агата_Муцениеце">
+        <rdf:type rdf:resource="&untitled-ontology-6;Актёры_токшоу"/>
+        <Стаж_работы rdf:datatype="&xsd;int">10</Стаж_работы>
+        <Уровень_популярности rdf:datatype="&xsd;string">Очень известный</Уровень_популярности>
+        <Стаж_работы rdf:resource="&untitled-ontology-6;Агата_Муцениеце"/>
+        <Уровень_популярности rdf:resource="&untitled-ontology-6;Агата_Муцениеце"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Аглая_Тарасова -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-6;Аглая_Тарасова">
+        <rdf:type rdf:resource="&untitled-ontology-6;Актёры_комедия"/>
+        <Стаж_работы rdf:datatype="&xsd;int">12</Стаж_работы>
+        <Уровень_популярности rdf:datatype="&xsd;string">Популярный</Уровень_популярности>
+        <Стаж_работы rdf:resource="&untitled-ontology-6;Аглая_Тарасова"/>
+        <Уровень_популярности rdf:resource="&untitled-ontology-6;Аглая_Тарасова"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Александр_Яценко -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-6;Александр_Яценко">
+        <rdf:type rdf:resource="&untitled-ontology-6;Актёры_боевик"/>
+        <Стаж_работы rdf:datatype="&xsd;int">4</Стаж_работы>
+        <Уровень_популярности rdf:datatype="&xsd;string">Малоизвестный</Уровень_популярности>
+        <Стаж_работы rdf:resource="&untitled-ontology-6;Александр_Яценко"/>
+        <Уровень_популярности rdf:resource="&untitled-ontology-6;Александр_Яценко"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Валерия_Ланская -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-6;Валерия_Ланская">
+        <rdf:type rdf:resource="&untitled-ontology-6;Актёры_мюзикл"/>
+        <Стаж_работы rdf:datatype="&xsd;int">15</Стаж_работы>
+        <Уровень_популярности rdf:datatype="&xsd;string">Малоизвестный</Уровень_популярности>
+        <Стаж_работы rdf:resource="&untitled-ontology-6;Валерия_Ланская"/>
+        <Уровень_популярности rdf:resource="&untitled-ontology-6;Валерия_Ланская"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Валерия_Репина -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-6;Валерия_Репина">
+        <rdf:type rdf:resource="&untitled-ontology-6;Актёры_исторический"/>
+        <Стаж_работы rdf:datatype="&xsd;int">13</Стаж_работы>
+        <Уровень_популярности rdf:datatype="&xsd;string">Известный</Уровень_популярности>
+        <Стаж_работы rdf:resource="&untitled-ontology-6;Валерия_Репина"/>
+        <Уровень_популярности rdf:resource="&untitled-ontology-6;Валерия_Репина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Владимир_Меньшов -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-6;Владимир_Меньшов">
+        <rdf:type rdf:resource="&untitled-ontology-6;Актёры_детектив"/>
+        <Стаж_работы rdf:datatype="&xsd;int">13</Стаж_работы>
+        <Уровень_популярности rdf:datatype="&xsd;string">Очень известный</Уровень_популярности>
+        <Уровень_популярности rdf:resource="&untitled-ontology-6;Владимир_Меньшов"/>
+        <Стаж_работы rdf:resource="&untitled-ontology-6;Владимир_Меньшов"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Владимир_Сычёв -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-6;Владимир_Сычёв">
+        <rdf:type rdf:resource="&untitled-ontology-6;Актёры_боевик"/>
+        <Стаж_работы rdf:datatype="&xsd;int">20</Стаж_работы>
+        <Уровень_популярности rdf:datatype="&xsd;string">Известный</Уровень_популярности>
+        <Уровень_популярности rdf:resource="&untitled-ontology-6;Владимир_Сычёв"/>
+        <Стаж_работы rdf:resource="&untitled-ontology-6;Владимир_Сычёв"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Гоша_Куценко -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-6;Гоша_Куценко">
+        <rdf:type rdf:resource="&untitled-ontology-6;Актёры_детектив"/>
+        <Стаж_работы rdf:datatype="&xsd;int">23</Стаж_работы>
+        <Уровень_популярности rdf:datatype="&xsd;string">Малоизвестный</Уровень_популярности>
+        <Уровень_популярности rdf:resource="&untitled-ontology-6;Гоша_Куценко"/>
+        <Стаж_работы rdf:resource="&untitled-ontology-6;Гоша_Куценко"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Данила_Козловский -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-6;Данила_Козловский">
+        <rdf:type rdf:resource="&untitled-ontology-6;Актёры_фантастика"/>
+        <Стаж_работы rdf:datatype="&xsd;int">25</Стаж_работы>
+        <Уровень_популярности rdf:datatype="&xsd;string">Очень очень популярный</Уровень_популярности>
+        <Стаж_работы rdf:resource="&untitled-ontology-6;Данила_Козловский"/>
+        <Уровень_популярности rdf:resource="&untitled-ontology-6;Данила_Козловский"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Диана_Пожарская -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-6;Диана_Пожарская">
+        <rdf:type rdf:resource="&untitled-ontology-6;Актёры_драма"/>
+        <Стаж_работы rdf:datatype="&xsd;int">13</Стаж_работы>
+        <Уровень_популярности rdf:datatype="&xsd;string">Популярный</Уровень_популярности>
+        <Уровень_популярности rdf:resource="&untitled-ontology-6;Диана_Пожарская"/>
+        <Стаж_работы rdf:resource="&untitled-ontology-6;Диана_Пожарская"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Дмитрий_Нагеев -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-6;Дмитрий_Нагеев">
+        <rdf:type rdf:resource="&untitled-ontology-6;Актёры_токшоу"/>
+        <Стаж_работы rdf:datatype="&xsd;int">14</Стаж_работы>
+        <Уровень_популярности rdf:datatype="&xsd;string">Популярный</Уровень_популярности>
+        <Уровень_популярности rdf:resource="&untitled-ontology-6;Дмитрий_Нагеев"/>
+        <Стаж_работы rdf:resource="&untitled-ontology-6;Дмитрий_Нагеев"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Екатерина_Кузнецова -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-6;Екатерина_Кузнецова">
+        <rdf:type rdf:resource="&untitled-ontology-6;Актёры_мультфильмы"/>
+        <Стаж_работы rdf:datatype="&xsd;int">2</Стаж_работы>
+        <Уровень_популярности rdf:datatype="&xsd;string">Малоизвестный</Уровень_популярности>
+        <Уровень_популярности rdf:resource="&untitled-ontology-6;Екатерина_Кузнецова"/>
+        <Стаж_работы rdf:resource="&untitled-ontology-6;Екатерина_Кузнецова"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Елена_Подкоминская -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-6;Елена_Подкоминская">
+        <rdf:type rdf:resource="&untitled-ontology-6;Актёры_драма"/>
+        <Стаж_работы rdf:datatype="&xsd;int">15</Стаж_работы>
+        <Уровень_популярности rdf:datatype="&xsd;string">Очень известный</Уровень_популярности>
+        <Уровень_популярности rdf:resource="&untitled-ontology-6;Елена_Подкоминская"/>
+        <Стаж_работы rdf:resource="&untitled-ontology-6;Елена_Подкоминская"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Катерина_Шпица -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-6;Катерина_Шпица">
+        <rdf:type rdf:resource="&untitled-ontology-6;Актёры_фантастика"/>
+        <Стаж_работы rdf:datatype="&xsd;int">16</Стаж_работы>
+        <Уровень_популярности rdf:datatype="&xsd;string">Известный</Уровень_популярности>
+        <Уровень_популярности rdf:resource="&untitled-ontology-6;Катерина_Шпица"/>
+        <Стаж_работы rdf:resource="&untitled-ontology-6;Катерина_Шпица"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Лика_Рулла -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-6;Лика_Рулла">
+        <rdf:type rdf:resource="&untitled-ontology-6;Актёры_мюзикл"/>
+        <Стаж_работы rdf:datatype="&xsd;int">6</Стаж_работы>
+        <Уровень_популярности rdf:datatype="&xsd;string">Неизвестный</Уровень_популярности>
+        <Стаж_работы rdf:resource="&untitled-ontology-6;Лика_Рулла"/>
+        <Уровень_популярности rdf:resource="&untitled-ontology-6;Лика_Рулла"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Маргарита_Аброськина -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-6;Маргарита_Аброськина">
+        <rdf:type rdf:resource="&untitled-ontology-6;Актёры_мультфильмы"/>
+        <Стаж_работы rdf:datatype="&xsd;int">5</Стаж_работы>
+        <Уровень_популярности rdf:datatype="&xsd;string">Достаточно известный</Уровень_популярности>
+        <Уровень_популярности rdf:resource="&untitled-ontology-6;Маргарита_Аброськина"/>
+        <Стаж_работы rdf:resource="&untitled-ontology-6;Маргарита_Аброськина"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Марина_Александрова -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-6;Марина_Александрова">
+        <rdf:type rdf:resource="&untitled-ontology-6;Актёры_исторический"/>
+        <Стаж_работы rdf:datatype="&xsd;int">23</Стаж_работы>
+        <Уровень_популярности rdf:datatype="&xsd;string">Супер популярный</Уровень_популярности>
+        <Стаж_работы rdf:resource="&untitled-ontology-6;Марина_Александрова"/>
+        <Уровень_популярности rdf:resource="&untitled-ontology-6;Марина_Александрова"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Сергей_Бурунов -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-6;Сергей_Бурунов">
+        <rdf:type rdf:resource="&untitled-ontology-6;Актёры_комедия"/>
+        <Стаж_работы rdf:datatype="&xsd;int">23</Стаж_работы>
+        <Уровень_популярности rdf:datatype="&xsd;string">Известный</Уровень_популярности>
+        <Уровень_популярности rdf:resource="&untitled-ontology-6;Сергей_Бурунов"/>
+        <Стаж_работы rdf:resource="&untitled-ontology-6;Сергей_Бурунов"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Сергей_Шакуров -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-6;Сергей_Шакуров">
+        <rdf:type rdf:resource="&untitled-ontology-6;Актёры_ужасы"/>
+        <Стаж_работы rdf:datatype="&xsd;int">34</Стаж_работы>
+        <Уровень_популярности rdf:datatype="&xsd;string">Очень популярный</Уровень_популярности>
+        <Уровень_популярности rdf:resource="&untitled-ontology-6;Сергей_Шакуров"/>
+        <Стаж_работы rdf:resource="&untitled-ontology-6;Сергей_Шакуров"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hp/ontologies/2024/9/untitled-ontology-6#Федор_Добронравов -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-6;Федор_Добронравов">
+        <rdf:type rdf:resource="&untitled-ontology-6;Актёры_ужасы"/>
+        <Стаж_работы rdf:datatype="&xsd;int">20</Стаж_работы>
+        <Уровень_популярности rdf:datatype="&xsd;string">Популярный</Уровень_популярности>
+        <Стаж_работы rdf:resource="&untitled-ontology-6;Федор_Добронравов"/>
+        <Уровень_популярности rdf:resource="&untitled-ontology-6;Федор_Добронравов"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
